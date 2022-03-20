@@ -9,10 +9,10 @@ i = 0
 cnt = 0
 while i <= a-3:
     cnt += 1
-    result = np.append(result, arr[i:i+4, ])
+    result = np.append(result, arr[i:i+4])
     i += 2
     if i+4 >= a-1 and i % 4 != 0:
-        delete = np.append(delete, arr[i+2:i+5, ])
+        delete = np.append(delete, arr[i+2:i+5])
         break
 print(result.reshape(cnt, 4))
 print(f"삭제된 원소:{delete}")
