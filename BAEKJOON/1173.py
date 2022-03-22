@@ -3,7 +3,7 @@ i = 0
 cnt = 0
 min = m
 while i < N:
-    if (M - min < T):
+    if (min+T > M):
         cnt = -1
         break
     if (m+T <= M):
