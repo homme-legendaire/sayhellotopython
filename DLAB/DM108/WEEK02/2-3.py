@@ -1,0 +1,11 @@
+N = int(input())
+
+print(N, '*', 1, '=', N * 1, sep='')
+print(N, '*', 2, '=', N * 2, sep='')
+print(N, '*', 3, '=', N * 3, sep='')
+print(N, '*', 4, '=', N * 4, sep='')
+print(N, '*', 5, '=', N * 5, sep='')
+print(N, '*', 6, '=', N * 6, sep='')
+print(N, '*', 7, '=', N * 7, sep='')
+print(N, '*', 8, '=', N * 8, sep='')
+print(N, '*', 9, '=', N * 9, sep='')
