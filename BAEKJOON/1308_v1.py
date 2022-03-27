@@ -18,7 +18,7 @@ def counting_day(y, m, d):
     total = 0
     for i in range(y):
         total += 365+isLeap(i)
-    for i in range(m):
+    for i in range(m-1):
         if i == 1:
             total += isLeap(y)
         total += month[i]
