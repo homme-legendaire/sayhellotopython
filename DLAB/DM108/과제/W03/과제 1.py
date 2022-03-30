@@ -1,6 +1,4 @@
-
-#연습문제 2-17
-
+# 3주차 과제 1
 x, y, z = map(int, input().split())
 
 if x == y == z:
