@@ -1,8 +1,10 @@
-#연습문제 3-6
+# 연습문제 3-6
 
-
-for i in range(5):
-    for j in range(5):
-        if j >= i:
-            print('*', end=' ')
-    print()
+num = int(input())
+sum = 0
+for i in range(1, 101):
+    if i % num == 0:
+        print(i, end=' ')
+        sum += i
+print()
+print(f'입력된 정수{num}의 배수의 합계: {sum}')

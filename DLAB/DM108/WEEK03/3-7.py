@@ -1,10 +1,9 @@
-#연습문제 3-6
+# 연습문제 3-7
+sum = 0
+a, b = map(int, input().split())
 
-num = int(input())
-sumNum = 0
-for i in range(1, 101):
-    if i % num == 0:
-        print(f'{i}', end=' ')
-        sumNum += i
-print()
-print(f'입력된 정수{num}의 배수의 합계: {sumNum}')
+for i in range(a, b+1):
+    if i % 5 == 0:
+        sum += i
+
+print(f'정수 {a}에서 {b}사이의 값 중 5의 배수의 총합은 {sum}입니다.')

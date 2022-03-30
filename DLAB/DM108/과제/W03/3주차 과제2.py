@@ -1,5 +1,4 @@
-
-#연습문제 2-16
+# 과제 2
 
 a, b, c = map(int, input().split())
 
@@ -19,4 +18,3 @@ elif a * b == c:
     print(a, '*', b, '=', c, sep='')
 elif a / b == c:
     print(a, '/', b, '=', c, sep='')
-    

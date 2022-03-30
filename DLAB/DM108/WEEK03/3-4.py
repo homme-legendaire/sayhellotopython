@@ -1,9 +1,6 @@
-#연습문제 3-4
+# 연습문제 3-4
+num = int(input())
 
-N = int(input())
-sum = 1
-
-for i in range(2, N+1):
-    sum += (i*i)
-
-print(sum)
+for i in range(num):
+    if i % 10 == 3:
+        print(i, end=' ')

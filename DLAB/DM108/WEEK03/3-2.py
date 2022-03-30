@@ -1,6 +1,4 @@
-
-#연습문제 3-2
-
+# 연습문제 3-2
 N = int(input())
 
 for i in range(N, 0, -1):
