@@ -1,10 +1,11 @@
-#연습문제 3-7
+# 연습문제 3-8
+num = int(input())
+even, odd = 0, 0
 
-sumNum = 0
-a,b = map(int, input().split())
+for i in range(1, num+1):
+    if i % 2 == 0:
+        even += i
+    else:
+        odd += i
 
-for i in range(a,b+1):
-    if i % 5 == 0:
-        sumNum += i
-
-print(f'정수 {a}에서 {b}사이의 값 중 5의 배수의 총합은 {sumNum}입니다.')
+print(f'짝수의 합: {even}, 홀수의 합: {odd}')

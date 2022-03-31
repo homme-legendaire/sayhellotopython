@@ -1,9 +1,7 @@
-#연습문제 3-5
+# 연습문제 3-5
 
-num = int(input())
-
-for i in range(num):
-    if i % 10 == 3:
-        print(i, end=' ')
-
-    
+for i in range(5):
+    for j in range(5):
+        if j >= i:
+            print('*', end=' ')
+    print()
