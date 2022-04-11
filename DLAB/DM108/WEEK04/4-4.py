@@ -1,11 +1,10 @@
 i = 0
 while True:
-    if i % 10 != 7:
-        i += 1
-        continue
-
+    i += 1
     if i > 100:
         break
 
+    if i % 10 != 7:
+        continue
+
     print(i, end=' ')
-    i += 1
