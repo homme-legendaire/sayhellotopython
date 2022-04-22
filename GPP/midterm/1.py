@@ -1,0 +1,6 @@
+name = input()
+id = int(input())
+major = input()
+print(id,name)
+print("Sejong University")
+print(f"Department : {major}")
