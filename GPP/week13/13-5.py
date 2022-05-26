@@ -37,4 +37,4 @@ for i in range(8):
         Score[i] += 1.0
     Score[i] /= 12
 for i in range(8):
-    print('%d %.2f' % (i+1, round(Score[i], 2)))
+    print(f'{i+1} {round(Score[i],2):.2f}')
