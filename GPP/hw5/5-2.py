@@ -15,8 +15,8 @@ while True:
             print('no such item')
     elif do == 'u':
         if item in store:
-            update = int(input())
-            store[item] = update
+            new = int(input())
+            store[item] = new
         else:
             print('no such item')
     elif do == 'p':
