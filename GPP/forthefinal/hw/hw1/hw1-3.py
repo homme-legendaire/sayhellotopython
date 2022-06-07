@@ -1,0 +1,6 @@
+name = input()
+local = input()
+age = int(input())
+print(f"Name : {name}")
+print(f"Residence : {local}")
+print(f"Birth Year : {2023-age}")
